@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARD</title>
+    <style>
+        body{
+            width: 100%;
+            height:100vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+        }
+        section{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .left, .right, .up, .down{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin: 10px;
+            color: white;
+        }
+        .left, .right{
+            margin: 25px;
+        }
+        .up, .down{
+            margin: 10px;
+        }
+        .middle{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .up{
+            border-top: 2px solid green;
+        }
+        .down{
+            border-top: 2px solid yellow;
+        }
+        .left{
+            border-top: 5px solid cyan;
+        }
+        .right{
+            border-top: 5px solidteal;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is my heading</h1>
+    <section>
+        <section class="left">LEFT</section>
+        <section class="middle">
+            <section class="up">UP</section>
+            <section class="down">DOWN</section>
+            </section>
+            <section class="right">RIGHT</section>
+        </section>
+    </section>
+    
+</body>
+</html>
